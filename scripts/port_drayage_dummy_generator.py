@@ -191,17 +191,15 @@ class PortDrayageDummyGenerator:
                     lng = float(row['LNG'])
                     coords[zip_code] = (lat, lng)
         except FileNotFoundError:
-            print("Warning: us_zip_coordinates.csv not found. Using default coordinates.")
-            # Default coordinates for LA area
-            coords[self.port_zip] = (33.7701, -118.1937)  # LA port coords
-            for zip_code in self.curated_zips:
-                coords[zip_code] = (33.7701, -118.1937)  # Default LA area coords
+            raise FileNotFoundError("❌ us_zip_coordinates.csv file not found! This file is required for coordinate lookups.")
         return coords
     
     def filter_close_zips(self, zip_list: List[str]) -> List[str]:
         """Filter out zip codes that are within 2 miles of the port."""
         filtered_zips = []
-        port_coords = self.zip_coords.get(self.port_zip, (33.745762, -118.208042))
+        if self.port_zip not in self.zip_coords:
+            raise ValueError(f"Port zip code {self.port_zip} not found in coordinate database")
+        port_coords = self.zip_coords[self.port_zip]
         
         for zip_code in zip_list:
             if zip_code in self.zip_coords:

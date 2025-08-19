@@ -1166,6 +1166,235 @@
 			"label": "Debug Negative Rates",
 			"type": "shell",
 			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules-main/.venv/Scripts/python.exe debug_negative_rates.py"
+		},
+		{
+			"label": "Install Required Dependencies for Rate Estimator",
+			"type": "shell",
+			"command": "C:/Users/Milana/Desktop/DrayVis-Modules/.venv/Scripts/python.exe -m pip install geopy scikit-learn",
+			"group": "build"
+		},
+		{
+			"label": "Install Dependencies",
+			"type": "shell",
+			"command": "python -m pip install geopy scikit-learn",
+			"group": "build"
+		},
+		{
+			"label": "Test Intelligent Rate Estimator",
+			"type": "shell",
+			"command": "python intelligent_rate_estimator.py",
+			"group": "build"
+		},
+		{
+			"label": "Test Rate Estimator Direct",
+			"type": "shell",
+			"command": "python intelligent_rate_estimator.py",
+			"group": "build"
+		},
+		{
+			"label": "Debug Zip Format",
+			"type": "shell",
+			"command": "python debug_zip_format.py",
+			"group": "test"
+		},
+		{
+			"label": "Test Fixed Rate Estimator",
+			"type": "shell",
+			"command": "python intelligent_rate_estimator.py",
+			"group": "build"
+		},
+		{
+			"label": "Check Available Zips",
+			"type": "shell",
+			"command": "python check_available_zips.py",
+			"group": "test"
+		},
+		{
+			"label": "Debug ZIP Lookup",
+			"type": "shell",
+			"command": "python debug_zip_lookup.py",
+			"group": "test"
+		},
+		{
+			"label": "Test Fixed Coordinate Lookup",
+			"type": "shell",
+			"command": "python intelligent_rate_estimator.py",
+			"group": "build"
+		},
+		{
+			"label": "Test Comprehensive Rate Estimator Interface",
+			"type": "shell",
+			"command": "python rate_estimator_interface.py",
+			"group": "build"
+		},
+		{
+			"label": "Final Validation Test",
+			"type": "shell",
+			"command": "python quick_test.py",
+			"group": "build"
+		},
+		{
+			"label": "Run Quick Test",
+			"type": "shell",
+			"command": "python quick_test.py",
+			"group": "build"
+		},
+		{
+			"label": "Test Enhanced Version 2.0 Estimator",
+			"type": "shell",
+			"command": "python test_enhanced_estimator.py",
+			"group": "test"
+		},
+		{
+			"label": "Final Version 2.0 Validation Test",
+			"type": "shell",
+			"command": "python final_version_2_test.py",
+			"group": "test"
+		},
+		{
+			"label": "Test Port Distance Similarity Enhancement",
+			"type": "shell",
+			"command": "python test_port_distance_similarity.py",
+			"group": "test"
+		},
+		{
+			"label": "Test DrayVis GUI Components",
+			"type": "shell",
+			"command": "C:/Users/Milana/Desktop/DrayVis-Modules/.venv/Scripts/python.exe test_gui.py",
+			"group": "test"
+		},
+		{
+			"label": "Test GUI Components",
+			"type": "shell",
+			"command": "python test_gui.py",
+			"group": "test"
+		},
+		{
+			"label": "Demo GUI Capabilities",
+			"type": "shell",
+			"command": "python demo_gui_capabilities.py",
+			"group": "test"
+		},
+		{
+			"label": "Test Enhanced Rate Estimator",
+			"type": "shell",
+			"command": "C:/Users/Milana/Desktop/DrayVis-Modules/.venv/Scripts/python.exe test_enhanced_estimator.py"
+		},
+		{
+			"label": "Test Enhanced Estimator Simple",
+			"type": "shell",
+			"command": "python test_enhanced_estimator.py"
+		},
+		{
+			"label": "Run Enhanced Estimator Test",
+			"type": "shell",
+			"command": "python test_enhanced_estimator.py",
+			"isBackground": false
+		},
+		{
+			"label": "Run Simple Test",
+			"type": "shell",
+			"command": "python simple_test.py"
+		},
+		{
+			"label": "Final Comprehensive Validation",
+			"type": "shell",
+			"command": "python final_validation.py"
+		},
+		{
+			"label": "Run Fixed Final Validation",
+			"type": "shell",
+			"command": "python final_validation.py"
+		},
+		{
+			"label": "Final Implementation Demonstration",
+			"type": "shell",
+			"command": "python final_demonstration.py"
+		},
+		{
+			"label": "Test Percentage-Based Variance System",
+			"type": "shell",
+			"command": "python test_percentage_variance.py"
+		},
+		{
+			"label": "Test Complete Enhanced System",
+			"type": "shell",
+			"command": "python test_complete_system.py"
+		},
+		{
+			"label": "Test Complete Enhanced System",
+			"type": "shell",
+			"command": "python test_complete_system.py"
+		},
+		{
+			"label": "Analyze Test Zip Codes",
+			"type": "shell",
+			"command": "python analyze_test_zips.py"
+		},
+		{
+			"label": "Analyze Test Zip Codes - Fixed",
+			"type": "shell",
+			"command": "python analyze_test_zips.py"
+		},
+		{
+			"label": "Debug Distance Calculation Discrepancy",
+			"type": "shell",
+			"command": "python debug_distance_calculation.py"
+		},
+		{
+			"label": "Test Distance Calculation Fix",
+			"type": "shell",
+			"command": "python test_distance_fix.py"
+		},
+		{
+			"label": "Distance Fix Summary",
+			"type": "shell",
+			"command": "python distance_fix_summary.py"
+		},
+		{
+			"label": "Test Coordinate Standardization",
+			"type": "shell",
+			"command": "python debug_distance_calculation.py"
+		},
+		{
+			"label": "Test Fixed Distance Calculation",
+			"type": "shell",
+			"command": "python test_distance_fix.py"
+		},
+		{
+			"label": "Analyze Test Zips with Updated Coordinates",
+			"type": "shell",
+			"command": "python analyze_test_zips.py"
+		},
+		{
+			"label": "Analyze Distance Coverage Gaps",
+			"type": "shell",
+			"command": "python analyze_distance_coverage.py"
+		},
+		{
+			"label": "Analyze Distance Coverage with Virtual Environment",
+			"type": "shell",
+			"command": "C:/Users/Milana/Desktop/DrayVis-Modules/.venv/Scripts/python.exe analyze_distance_coverage.py"
+		},
+		{
+			"label": "Create Comprehensive Test Files for All Distance Ranges",
+			"type": "shell",
+			"command": "python create_comprehensive_test_files.py"
+		},
+		{
+			"label": "Regenerate Test Files with Proper Separation",
+			"type": "shell",
+			"command": "python analyze_test_zips.py"
+		},
+		{
+			"label": "Create Clean Test Files WITHOUT Historical Data",
+			"type": "shell",
+			"command": "python create_clean_test_files.py"
+		},
+		{
+			"label": "Validate Clean Test Files",
+			"type": "shell",
+			"command": "python validate_clean_test_files.py"
 		}
 	]
 }
