@@ -1395,6 +1395,264 @@
 			"label": "Validate Clean Test Files",
 			"type": "shell",
 			"command": "python validate_clean_test_files.py"
+		},
+		{
+			"label": "Install Matplotlib and Seaborn for K-Fold Validation",
+			"type": "shell",
+			"command": "python -m pip install matplotlib seaborn",
+			"group": "build"
+		},
+		{
+			"label": "Run K-Fold Cross-Validation for DrayVis Model",
+			"type": "shell",
+			"command": "python run_kfold_validation.py",
+			"group": "build"
+		},
+		{
+			"label": "Check K-Fold Validation Results",
+			"type": "shell",
+			"command": "python check_kfold_results.py",
+			"group": "test"
+		},
+		{
+			"label": "Run Simple K-Fold Test",
+			"type": "shell",
+			"command": "python simple_kfold_test.py",
+			"group": "test"
+		},
+		{
+			"label": "Run Fixed Simple K-Fold Test",
+			"type": "shell",
+			"command": "python simple_kfold_test.py",
+			"group": "test"
+		},
+		{
+			"label": "Check CSV Structure",
+			"type": "shell",
+			"command": "python check_csv_structure.py",
+			"group": "test"
+		},
+		{
+			"label": "Run Fixed K-Fold Test with Correct Columns",
+			"type": "shell",
+			"command": "python simple_kfold_test.py",
+			"group": "test"
+		},
+		{
+			"label": "Test Optimized K-Fold Validation for LA Region",
+			"type": "shell",
+			"command": "C:/Users/Milana/Desktop/DrayVis-Modules/.venv/Scripts/python.exe test_optimized_kfold.py",
+			"group": "build"
+		},
+		{
+			"label": "Test Optimized K-Fold Validation",
+			"type": "shell",
+			"command": "python test_optimized_kfold.py",
+			"group": "build"
+		},
+		{
+			"label": "Test Performance Improvements",
+			"type": "shell",
+			"command": "python test_performance_improvements.py",
+			"group": "test"
+		},
+		{
+			"label": "Test Working K-Fold with Performance Optimization",
+			"type": "shell",
+			"command": "python test_working_kfold.py",
+			"group": "test"
+		},
+		{
+			"label": "Run Fixed Performance Test",
+			"type": "shell",
+			"command": "python test_performance_improvements.py",
+			"group": "test"
+		},
+		{
+			"label": "Test Enhanced K-Fold Validation System",
+			"type": "shell",
+			"command": "python test_enhanced_kfold.py",
+			"group": "test"
+		},
+		{
+			"label": "Enhanced Validation Demo",
+			"type": "shell",
+			"command": "python enhanced_validation_demo.py",
+			"group": "build"
+		},
+		{
+			"label": "Final Enhanced Validation Demo",
+			"type": "shell",
+			"command": "python final_validation_demo.py",
+			"group": "build"
+		},
+		{
+			"label": "Test 300-Mile Validation System",
+			"type": "shell",
+			"command": "python test_300_mile_validation.py",
+			"group": "test"
+		},
+		{
+			"label": "Run Enhanced K-Fold Validation with Professional Report",
+			"type": "shell",
+			"command": "python kfold_validation.py",
+			"group": "build"
+		},
+		{
+			"label": "Test Enhanced Configuration Differentiation",
+			"type": "shell",
+			"command": "python test_enhanced_configurations.py",
+			"group": "test"
+		},
+		{
+			"label": "Test Enhanced Configuration Differentiation",
+			"type": "shell",
+			"command": "python test_enhanced_configurations.py",
+			"group": "test"
+		},
+		{
+			"label": "Test Enhanced Configuration Differentiation",
+			"type": "shell",
+			"command": "python test_enhanced_configurations.py",
+			"group": "test"
+		},
+		{
+			"label": "Test EXTREME Configuration Differentiation",
+			"type": "shell",
+			"command": "python test_enhanced_configurations.py",
+			"group": "test"
+		},
+		{
+			"label": "Diagnose Configuration Parameter Impact",
+			"type": "shell",
+			"command": "python diagnose_config_impact.py",
+			"group": "test"
+		},
+		{
+			"label": "Diagnose Configuration Parameter Impact",
+			"type": "shell",
+			"command": "python diagnose_config_impact.py",
+			"group": "test"
+		},
+		{
+			"label": "Test Realistic Configuration Differentiation",
+			"type": "shell",
+			"command": "python test_enhanced_configurations.py",
+			"group": "test"
+		},
+		{
+			"label": "Test Fast K-Fold Validator",
+			"type": "shell",
+			"command": "python test_fast_kfold.py",
+			"group": "test"
+		},
+		{
+			"label": "Install Performance Dependencies",
+			"type": "shell",
+			"command": "python -m pip install psutil tqdm",
+			"group": "build"
+		},
+		{
+			"label": "Test Fast K-Fold Validator",
+			"type": "shell",
+			"command": "python test_fast_kfold.py",
+			"group": "test"
+		},
+		{
+			"label": "Check Data Columns",
+			"type": "shell",
+			"command": "python check_columns.py",
+			"group": "test"
+		},
+		{
+			"label": "Test Fast K-Fold Validator Fixed",
+			"type": "shell",
+			"command": "python test_fast_kfold.py",
+			"group": "test"
+		},
+		{
+			"label": "Test Fixed Fast K-Fold Validator",
+			"type": "shell",
+			"command": "python test_fast_kfold.py",
+			"group": "test"
+		},
+		{
+			"label": "Test Final FastKFoldValidator Performance",
+			"type": "shell",
+			"command": "python test_fast_kfold.py",
+			"group": "test"
+		},
+		{
+			"label": "Final Speed Validation Test",
+			"type": "shell",
+			"command": "python final_speed_test.py",
+			"group": "test"
+		},
+		{
+			"label": "Final Speed Achievement Test",
+			"type": "shell",
+			"command": "python final_speed_test.py",
+			"group": "test"
+		},
+		{
+			"label": "Speed Optimization Success Summary",
+			"type": "shell",
+			"command": "python speed_success_summary.py",
+			"group": "test"
+		},
+		{
+			"label": "Install Required Dependencies for FastKFoldValidator",
+			"type": "shell",
+			"command": "C:/Users/Milana/AppData/Local/Programs/Python/Python313/python.exe -m pip install tqdm psutil",
+			"group": "build"
+		},
+		{
+			"label": "Test 300-Mile Validation System",
+			"type": "shell",
+			"command": "C:/Users/Milana/AppData/Local/Programs/Python/Python313/python.exe test_300_mile_validation.py",
+			"group": "test"
+		},
+		{
+			"label": "Test Fixed 300-Mile Validation System",
+			"type": "shell",
+			"command": "python test_300_mile_validation.py",
+			"group": "test"
+		},
+		{
+			"label": "Test Complete 300-Mile Validation System",
+			"type": "shell",
+			"command": "python test_300_mile_validation.py",
+			"group": "test"
+		},
+		{
+			"label": "Test Final 300-Mile Validation System",
+			"type": "shell",
+			"command": "python test_300_mile_validation.py",
+			"group": "test"
+		},
+		{
+			"label": "Test Current Speed Summary",
+			"type": "shell",
+			"command": "python speed_success_summary.py",
+			"group": "test"
+		},
+		{
+			"label": "Install Visualization Dependencies",
+			"type": "shell",
+			"command": "pip install matplotlib seaborn pandas numpy",
+			"group": "build"
+		},
+		{
+			"label": "Test Comprehensive Auto-Optimization System",
+			"type": "shell",
+			"command": "python test_comprehensive_system.py",
+			"group": "test"
+		},
+		{
+			"label": "Test Fixed Comprehensive Auto-Optimization System",
+			"type": "shell",
+			"command": "python test_fixed_comprehensive_system.py",
+			"group": "build"
 		}
 	]
 }

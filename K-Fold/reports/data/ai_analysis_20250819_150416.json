@@ -1,0 +1,193 @@
+{
+  "timestamp": "2025-08-19T15:04:16.794029",
+  "analysis_metadata": {
+    "total_configurations": 9,
+    "analysis_type": "comprehensive_validation",
+    "system_version": "FastKFoldValidator_v2.0"
+  },
+  "performance_matrix": [
+    {
+      "configuration": "ultra_recent",
+      "mae": 2.990466931350139,
+      "rmse": 4.052849752573129,
+      "r2": 0.5756814642410331,
+      "mape": 36.23654156953851,
+      "validation_time": 0,
+      "accuracy_level": "NEEDS_IMPROVEMENT",
+      "speed_level": "VERY_FAST",
+      "geographic_coverage": 0,
+      "avg_confidence": 0.75,
+      "total_predictions": 10,
+      "accuracy_rank": 5.5,
+      "speed_rank": 5.0,
+      "overall_rank": 5.5
+    },
+    {
+      "configuration": "historical_stable",
+      "mae": 2.990466931350139,
+      "rmse": 4.052849752573129,
+      "r2": 0.5756814642410331,
+      "mape": 36.23654156953851,
+      "validation_time": 0,
+      "accuracy_level": "NEEDS_IMPROVEMENT",
+      "speed_level": "VERY_FAST",
+      "geographic_coverage": 0,
+      "avg_confidence": 0.75,
+      "total_predictions": 10,
+      "accuracy_rank": 5.5,
+      "speed_rank": 5.0,
+      "overall_rank": 5.5
+    },
+    {
+      "configuration": "hyper_local",
+      "mae": 2.990466931350139,
+      "rmse": 4.052849752573129,
+      "r2": 0.5756814642410331,
+      "mape": 36.23654156953851,
+      "validation_time": 0,
+      "accuracy_level": "NEEDS_IMPROVEMENT",
+      "speed_level": "VERY_FAST",
+      "geographic_coverage": 0,
+      "avg_confidence": 0.75,
+      "total_predictions": 10,
+      "accuracy_rank": 5.5,
+      "speed_rank": 5.0,
+      "overall_rank": 5.5
+    },
+    {
+      "configuration": "baseline",
+      "mae": 2.990466931350139,
+      "rmse": 4.052849752573129,
+      "r2": 0.5756814642410331,
+      "mape": 36.23654156953851,
+      "validation_time": 0,
+      "accuracy_level": "NEEDS_IMPROVEMENT",
+      "speed_level": "VERY_FAST",
+      "geographic_coverage": 0,
+      "avg_confidence": 0.75,
+      "total_predictions": 10,
+      "accuracy_rank": 5.5,
+      "speed_rank": 5.0,
+      "overall_rank": 5.5
+    },
+    {
+      "configuration": "speed_optimized",
+      "mae": 2.990466931350139,
+      "rmse": 4.052849752573129,
+      "r2": 0.5756814642410331,
+      "mape": 36.23654156953851,
+      "validation_time": 0,
+      "accuracy_level": "NEEDS_IMPROVEMENT",
+      "speed_level": "VERY_FAST",
+      "geographic_coverage": 0,
+      "avg_confidence": 0.75,
+      "total_predictions": 10,
+      "accuracy_rank": 5.5,
+      "speed_rank": 5.0,
+      "overall_rank": 5.5
+    },
+    {
+      "configuration": "quality_focused",
+      "mae": 2.990466931350139,
+      "rmse": 4.052849752573129,
+      "r2": 0.5756814642410331,
+      "mape": 36.23654156953851,
+      "validation_time": 0,
+      "accuracy_level": "NEEDS_IMPROVEMENT",
+      "speed_level": "VERY_FAST",
+      "geographic_coverage": 0,
+      "avg_confidence": 0.75,
+      "total_predictions": 10,
+      "accuracy_rank": 5.5,
+      "speed_rank": 5.0,
+      "overall_rank": 5.5
+    },
+    {
+      "configuration": "regional_broad",
+      "mae": 2.990466931350139,
+      "rmse": 4.052849752573129,
+      "r2": 0.5756814642410331,
+      "mape": 36.23654156953851,
+      "validation_time": 0,
+      "accuracy_level": "NEEDS_IMPROVEMENT",
+      "speed_level": "VERY_FAST",
+      "geographic_coverage": 0,
+      "avg_confidence": 0.75,
+      "total_predictions": 10,
+      "accuracy_rank": 5.5,
+      "speed_rank": 5.0,
+      "overall_rank": 5.5
+    },
+    {
+      "configuration": "ml_heavy",
+      "mae": 2.990466931350139,
+      "rmse": 4.052849752573129,
+      "r2": 0.5756814642410331,
+      "mape": 36.23654156953851,
+      "validation_time": 0,
+      "accuracy_level": "NEEDS_IMPROVEMENT",
+      "speed_level": "VERY_FAST",
+      "geographic_coverage": 0,
+      "avg_confidence": 0.75,
+      "total_predictions": 10,
+      "accuracy_rank": 5.5,
+      "speed_rank": 5.0,
+      "overall_rank": 5.5
+    },
+    {
+      "configuration": "distance_centric",
+      "mae": 2.18537260044262,
+      "rmse": 3.464229739839592,
+      "r2": 0.6340025154325977,
+      "mape": 16.76619184140326,
+      "validation_time": 0,
+      "accuracy_level": "NEEDS_IMPROVEMENT",
+      "speed_level": "VERY_FAST",
+      "geographic_coverage": 0,
+      "avg_confidence": 0.75,
+      "total_predictions": 10,
+      "accuracy_rank": 1.0,
+      "speed_rank": 5.0,
+      "overall_rank": 1.0
+    }
+  ],
+  "best_configurations": {
+    "accuracy_leader": {
+      "name": "distance_centric",
+      "mae": 2.18537260044262,
+      "r2": 0.6340025154325977,
+      "validation_time": 0.0
+    },
+    "speed_leader": {
+      "name": "ultra_recent",
+      "mae": 2.990466931350139,
+      "r2": 0.5756814642410331,
+      "validation_time": 0.0
+    },
+    "overall_leader": {
+      "name": "distance_centric",
+      "mae": 2.18537260044262,
+      "r2": 0.6340025154325977,
+      "validation_time": 0.0
+    }
+  },
+  "summary_statistics": {
+    "mae_statistics": {
+      "mean": 2.901012005693748,
+      "std": 0.2683647769691729,
+      "min": 2.18537260044262,
+      "max": 2.990466931350139
+    },
+    "time_statistics": {
+      "mean": 0.0,
+      "std": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    }
+  },
+  "optimization_targets": {
+    "accuracy_threshold": 1.0,
+    "speed_threshold": 2.0,
+    "r2_threshold": 0.8
+  }
+}
