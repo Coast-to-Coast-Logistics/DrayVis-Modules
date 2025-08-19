@@ -1,0 +1,1171 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run CSV Enricher",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules/.venv/Scripts/python.exe csv_enricher_standalone.py"
+		},
+		{
+			"label": "Analyze Enriched Data",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules/.venv/Scripts/python.exe analyze_enriched_data.py",
+			"group": "build"
+		},
+		{
+			"label": "Generate Business Insights",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules/.venv/Scripts/python.exe business_insights.py",
+			"group": "build"
+		},
+		{
+			"label": "Run combined DrayVis Markdown report",
+			"type": "shell",
+			"command": "python business_insights.py"
+		},
+		{
+			"label": "Run improved Markdown report",
+			"type": "shell",
+			"command": "python business_insights.py"
+		},
+		{
+			"label": "Regenerate realistic dummy data",
+			"type": "shell",
+			"command": "python generate_expanded_dummies.py"
+		},
+		{
+			"label": "Regenerate Markdown report with realistic data",
+			"type": "shell",
+			"command": "python business_insights.py"
+		},
+		{
+			"label": "Regenerate dummy data with fixed clamp logic",
+			"type": "shell",
+			"command": "python generate_expanded_dummies.py"
+		},
+		{
+			"label": "Regenerate dummy data after indentation fix",
+			"type": "shell",
+			"command": "python generate_expanded_dummies.py"
+		},
+		{
+			"label": "Regenerate dummy data after indentation fix (final)",
+			"type": "shell",
+			"command": "python generate_expanded_dummies.py"
+		},
+		{
+			"label": "Test for indentation error after reformatting",
+			"type": "shell",
+			"command": "python generate_expanded_dummies.py"
+		},
+		{
+			"label": "Regenerate dummy data with new business logic",
+			"type": "shell",
+			"command": "python generate_expanded_dummies.py"
+		},
+		{
+			"label": "Regenerate Markdown report with new business logic",
+			"type": "shell",
+			"command": "python business_insights.py"
+		},
+		{
+			"label": "Regenerate dummy data with new carrier/customer quote logic",
+			"type": "shell",
+			"command": "python generate_expanded_dummies.py"
+		},
+		{
+			"label": "Regenerate Markdown report with new quote logic",
+			"type": "shell",
+			"command": "python business_insights.py"
+		},
+		{
+			"label": "Regenerate dummy data with updated short distance rate logic",
+			"type": "shell",
+			"command": "python generate_expanded_dummies.py",
+			"args": [],
+			"problemMatcher": []
+		},
+		{
+			"label": "Regenerate business insights report with updated dummy data",
+			"type": "shell",
+			"command": "python business_insights.py",
+			"args": [],
+			"problemMatcher": []
+		},
+		{
+			"label": "Regenerate simplified business insights report",
+			"type": "shell",
+			"command": "python business_insights.py",
+			"args": [],
+			"problemMatcher": []
+		},
+		{
+			"label": "Regenerate simplified business insights report after installing tabulate",
+			"type": "shell",
+			"command": "python business_insights.py",
+			"args": [],
+			"problemMatcher": []
+		},
+		{
+			"label": "Regenerate simplified business insights report using venv python",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules/.venv/Scripts/python.exe business_insights.py",
+			"args": [],
+			"problemMatcher": []
+		},
+		{
+			"label": "Regenerate business insights report with separated metrics and lane margin",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules/.venv/Scripts/python.exe business_insights.py",
+			"args": [],
+			"problemMatcher": []
+		},
+		{
+			"label": "Regenerate business insights report with quote data section removed",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules/.venv/Scripts/python.exe business_insights.py",
+			"args": [],
+			"problemMatcher": []
+		},
+		{
+			"label": "Test run_all.py workflow script",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules/.venv/Scripts/python.exe run_all.py",
+			"args": [],
+			"problemMatcher": []
+		},
+		{
+			"label": "Test run_all.py with delays",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules/.venv/Scripts/python.exe run_all.py",
+			"args": [],
+			"problemMatcher": []
+		},
+		{
+			"label": "Test run_all.py workflow after Unicode fix",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules/.venv/Scripts/python.exe run_all.py",
+			"args": [],
+			"problemMatcher": []
+		},
+		{
+			"label": "Run dummy data generation",
+			"type": "shell",
+			"command": "python data/scripts/generate_expanded_dummies.py"
+		},
+		{
+			"label": "Test updated dummy data generator with lane keys",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules/.venv/Scripts/python.exe data/scripts/generate_expanded_dummies.py"
+		},
+		{
+			"label": "Test complete workflow with updated lane key logic",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules/.venv/Scripts/python.exe run_all.py"
+		},
+		{
+			"label": "Test updated dummy data generator",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules/.venv/Scripts/python.exe data/scripts/generate_expanded_dummies.py"
+		},
+		{
+			"label": "Run generate_expanded_dummies.py to verify sorting and zip code logic",
+			"type": "shell",
+			"command": "python data/scripts/generate_expanded_dummies.py",
+			"args": [],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Test updated workflow with lane keys in generate script",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules/.venv/Scripts/python.exe run_all.py"
+		},
+		{
+			"label": "Run updated workflow with realistic rates",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules/.venv/Scripts/python.exe run_all.py",
+			"group": "build"
+		},
+		{
+			"label": "Run Updated DrayVis Workflow with Fixed Business Logic",
+			"type": "shell",
+			"command": "python run_all.py"
+		},
+		{
+			"label": "Run Complete DrayVis Workflow with tabulate",
+			"type": "shell",
+			"command": "python run_all.py"
+		},
+		{
+			"label": "Test Business Insights Script with Virtual Environment",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules/.venv/Scripts/python.exe data/scripts/business_insights.py"
+		},
+		{
+			"label": "Test Final DrayVis Workflow",
+			"type": "shell",
+			"command": "python run_all.py"
+		},
+		{
+			"label": "Test Updated Business Logic Configuration",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules/.venv/Scripts/python.exe data/scripts/generate_expanded_dummies.py"
+		},
+		{
+			"label": "Test Customer Markup Weights and Natural Margins",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules/.venv/Scripts/python.exe data/scripts/generate_expanded_dummies.py"
+		},
+		{
+			"label": "Generate updated DrayVis report with single margin table",
+			"type": "shell",
+			"command": "cd c:\\Users\\gavin\\OneDrive\\Desktop\\DrayVis-Modules && python data\\scripts\\business_insights.py"
+		},
+		{
+			"label": "Generate Updated Business Intelligence Report",
+			"type": "shell",
+			"command": "cd data/scripts && python business_insights.py",
+			"group": "build"
+		},
+		{
+			"label": "Run Business Insights with Python",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules/.venv/Scripts/python.exe data/scripts/business_insights.py",
+			"group": "build"
+		},
+		{
+			"label": "Generate Updated Business Intelligence Report",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules/.venv/Scripts/python.exe data/scripts/business_insights.py",
+			"group": "build"
+		},
+		{
+			"label": "Run Only Business Insights Script",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules/.venv/Scripts/python.exe data/scripts/business_insights.py",
+			"group": "test"
+		},
+		{
+			"label": "Test Market Trends Data Generation",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules/.venv/Scripts/python.exe data/scripts/generate_expanded_dummies.py",
+			"group": "test"
+		},
+		{
+			"label": "Test Market Trends Data Generation Fixed",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules/.venv/Scripts/python.exe data/scripts/generate_expanded_dummies.py",
+			"group": "test"
+		},
+		{
+			"label": "Test Full Workflow with Market Trends",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules/.venv/Scripts/python.exe run_all.py",
+			"group": "build"
+		},
+		{
+			"label": "Test Improved Market Trends with Visualizations",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules/.venv/Scripts/python.exe run_all.py",
+			"group": "build"
+		},
+		{
+			"label": "Test Market Trend Visualizations",
+			"type": "shell",
+			"command": "cd data/scripts && python generate_expanded_dummies.py && cd ../.. && python enrich_dummy_data.py && python business_insights.py"
+		},
+		{
+			"label": "Test Chart Visualizations",
+			"type": "shell",
+			"command": "python run_all.py"
+		},
+		{
+			"label": "Debug Chart Generation",
+			"type": "shell",
+			"command": "python business_insights.py"
+		},
+		{
+			"label": "Install Matplotlib and Seaborn",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules/.venv/Scripts/python.exe -m pip install matplotlib seaborn"
+		},
+		{
+			"label": "Test Charts with Correct Python",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules/.venv/Scripts/python.exe business_insights.py"
+		},
+		{
+			"label": "Final Test with Charts",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules/.venv/Scripts/python.exe run_all.py"
+		},
+		{
+			"label": "Final Complete Test",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules/.venv/Scripts/python.exe run_all.py"
+		},
+		{
+			"label": "Final Complete Workflow Test",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules/.venv/Scripts/python.exe run_all.py"
+		},
+		{
+			"label": "Test Current Setup",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules/.venv/Scripts/python.exe run_all.py"
+		},
+		{
+			"label": "Test Improved Margin Logic",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules/.venv/Scripts/python.exe run_all.py"
+		},
+		{
+			"label": "Test Improved Margin Validation Logic",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules/.venv/Scripts/python.exe run_all.py"
+		},
+		{
+			"label": "Test Improved Rate Configuration",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules/.venv/Scripts/python.exe run_all.py"
+		},
+		{
+			"label": "Final Rate Optimization Test",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules/.venv/Scripts/python.exe run_all.py"
+		},
+		{
+			"label": "Test LA Port Sector Map",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules/.venv/Scripts/python.exe la_port_sector_map.py",
+			"group": "build"
+		},
+		{
+			"label": "Test Updated LA Port Sector Map",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules/.venv/Scripts/python.exe la_port_sector_map.py",
+			"group": "build"
+		},
+		{
+			"label": "Final Test LA Port Sector Map",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules/.venv/Scripts/python.exe la_port_sector_map.py",
+			"group": "build"
+		},
+		{
+			"label": "Create Summary Dashboard",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules/.venv/Scripts/python.exe create_summary_dashboard.py",
+			"group": "build"
+		},
+		{
+			"label": "Test Enhanced LA Port Sector Map",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules/.venv/Scripts/python.exe enhanced_la_port_sector_map.py",
+			"group": "build"
+		},
+		{
+			"label": "Create Unified LA Port Dashboard",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules/.venv/Scripts/python.exe clean_unified_dashboard.py"
+		},
+		{
+			"label": "Create Clean Unified Dashboard",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules/.venv/Scripts/python.exe clean_unified_dashboard.py"
+		},
+		{
+			"label": "Generate Final Unified LA Port Map",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules/.venv/Scripts/python.exe la_port_sector_map.py"
+		},
+		{
+			"label": "Generate Professional LA Port Sector Map",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules/.venv/Scripts/python.exe la_port_sector_map.py",
+			"group": "build"
+		},
+		{
+			"label": "Test LA Port Sector Map Execution",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules/.venv/Scripts/python.exe -c \"exec(open('la_port_sector_map.py').read())\"",
+			"group": "build"
+		},
+		{
+			"label": "Test Professional Interactive Mapping Script",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules/.venv/Scripts/python.exe la_port_sector_map.py",
+			"group": "build"
+		},
+		{
+			"label": "Generate Final Professional Interactive Map",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules/.venv/Scripts/python.exe la_port_sector_map.py",
+			"group": "build"
+		},
+		{
+			"label": "Verify Output Files",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules/.venv/Scripts/python.exe -c \"import os; print('Files created:'); [print(f) for f in os.listdir('.') if f.endswith(('.html', '.json'))]\"",
+			"group": "test"
+		},
+		{
+			"label": "Test Import/Export Filtering",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules/.venv/Scripts/python.exe test_import_export.py"
+		},
+		{
+			"label": "Test Fixed Import/Export Filtering",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules/.venv/Scripts/python.exe test_import_export.py"
+		},
+		{
+			"label": "Check Zipcodes in Data",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules/.venv/Scripts/python.exe check_zipcodes.py"
+		},
+		{
+			"label": "Check Zipcodes Fixed",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules/.venv/Scripts/python.exe check_zipcodes.py"
+		},
+		{
+			"label": "Test Import/Export Filtering Final",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules/.venv/Scripts/python.exe test_import_export.py"
+		},
+		{
+			"label": "Test Fixed LA Port Map",
+			"type": "shell",
+			"command": "C:/Users/Milana/Desktop/DrayVis-Modules/.venv/Scripts/python.exe la_port_sector_map.py"
+		},
+		{
+			"label": "Test Blue Glow on Inner Rings",
+			"type": "shell",
+			"command": "C:/Users/Milana/Desktop/DrayVis-Modules/.venv/Scripts/python.exe la_port_sector_map.py"
+		},
+		{
+			"label": "Final Test Blue Glow Inner Rings",
+			"type": "shell",
+			"command": "C:/Users/Milana/Desktop/DrayVis-Modules/.venv/Scripts/python.exe la_port_sector_map.py"
+		},
+		{
+			"label": "Test Master Drayage Dashboard",
+			"type": "shell",
+			"command": "python master_drayage_dashboard.py",
+			"group": "build"
+		},
+		{
+			"label": "Test Master Drayage Dashboard Fixed",
+			"type": "shell",
+			"command": "python master_drayage_dashboard.py",
+			"group": "build"
+		},
+		{
+			"label": "Test Analytics Engine",
+			"type": "shell",
+			"command": "python test_analytics.py",
+			"group": "test"
+		},
+		{
+			"label": "Test Analytics Engine Fixed",
+			"type": "shell",
+			"command": "python test_analytics.py",
+			"group": "test"
+		},
+		{
+			"label": "Test Master Dashboard Final",
+			"type": "shell",
+			"command": "python master_drayage_dashboard.py",
+			"group": "build"
+		},
+		{
+			"label": "Test Simplified Dummy Data Generator",
+			"type": "shell",
+			"command": "C:/Users/Milana/Desktop/DrayVis-Modules/.venv/Scripts/python.exe data/scripts/generate_expanded_dummies.py"
+		},
+		{
+			"label": "Test Complete Simplified Workflow",
+			"type": "shell",
+			"command": "python run_all.py"
+		},
+		{
+			"label": "Test CSV Enricher with Simplified Data",
+			"type": "shell",
+			"command": "python data/scripts/csv_zip_enricher.py"
+		},
+		{
+			"label": "Test Granular Rate Curve Dummy Data Generator",
+			"type": "shell",
+			"command": "python data/scripts/generate_expanded_dummies.py"
+		},
+		{
+			"label": "Regenerate Dummy Data After Quote Logic Fix",
+			"type": "shell",
+			"command": "python data/scripts/generate_expanded_dummies.py"
+		},
+		{
+			"label": "Regenerate Data with Complete Quote Logic Fix",
+			"type": "shell",
+			"command": "python data/scripts/generate_expanded_dummies.py"
+		},
+		{
+			"label": "Re-enrich Data After Quote Logic Fix",
+			"type": "shell",
+			"command": "python data/scripts/csv_zip_enricher.py"
+		},
+		{
+			"label": "Regenerate Data with Reduced Variation",
+			"type": "shell",
+			"command": "python data/scripts/generate_expanded_dummies.py"
+		},
+		{
+			"label": "Enrich Data with Reduced Variation",
+			"type": "shell",
+			"command": "python data/scripts/csv_zip_enricher.py"
+		},
+		{
+			"label": "Generate Data with Tight Multiplier Ranges",
+			"type": "shell",
+			"command": "python data/scripts/generate_expanded_dummies.py"
+		},
+		{
+			"label": "Enrich Data with Tight Multipliers",
+			"type": "shell",
+			"command": "python data/scripts/csv_zip_enricher.py"
+		},
+		{
+			"label": "Generate Data with Separated Customer/Carrier Logic",
+			"type": "shell",
+			"command": "python data/scripts/generate_expanded_dummies.py"
+		},
+		{
+			"label": "Enrich Data with Separated Logic",
+			"type": "shell",
+			"command": "python data/scripts/csv_zip_enricher.py"
+		},
+		{
+			"label": "Debug Rate Calculation",
+			"type": "shell",
+			"command": "C:/Users/Milana/Desktop/DrayVis-Modules/.venv/Scripts/python.exe debug_rate_calculation.py"
+		},
+		{
+			"label": "Analyze Actual Data",
+			"type": "shell",
+			"command": "C:/Users/Milana/Desktop/DrayVis-Modules/.venv/Scripts/python.exe analyze_actual_data.py"
+		},
+		{
+			"label": "Analyze Actual Data Fixed",
+			"type": "shell",
+			"command": "C:/Users/Milana/Desktop/DrayVis-Modules/.venv/Scripts/python.exe analyze_actual_data.py"
+		},
+		{
+			"label": "Debug Port Profile Generation",
+			"type": "shell",
+			"command": "C:/Users/Milana/Desktop/DrayVis-Modules/.venv/Scripts/python.exe debug_port_profile_generation.py"
+		},
+		{
+			"label": "Debug Rate Calculation Consistency",
+			"type": "shell",
+			"command": "C:/Users/Milana/Desktop/DrayVis-Modules/.venv/Scripts/python.exe data/scripts/generate_expanded_dummies.py"
+		},
+		{
+			"label": "Run Simple Debug Test",
+			"type": "shell",
+			"command": "python simple_test.py"
+		},
+		{
+			"label": "Test Unified Rate Calculation",
+			"type": "shell",
+			"command": "python simple_test.py"
+		},
+		{
+			"label": "Test Final Unified Rate Calculation",
+			"type": "shell",
+			"command": "python simple_test.py"
+		},
+		{
+			"label": "Test Variation Theory",
+			"type": "shell",
+			"command": "python test_variation_theory.py"
+		},
+		{
+			"label": "Detailed Rate Analysis",
+			"type": "shell",
+			"command": "python detailed_rate_analysis.py"
+		},
+		{
+			"label": "Final Validation Test",
+			"type": "shell",
+			"command": "python final_validation_test.py"
+		},
+		{
+			"label": "Debug Exact Variation Source",
+			"type": "shell",
+			"command": "python debug_exact_variation.py"
+		},
+		{
+			"label": "Investigate Specific Records",
+			"type": "shell",
+			"command": "C:/Users/Milana/Desktop/DrayVis-Modules/.venv/Scripts/python.exe investigate_specific_records.py"
+		},
+		{
+			"label": "Investigate Specific Records Fixed",
+			"type": "shell",
+			"command": "C:/Users/Milana/Desktop/DrayVis-Modules/.venv/Scripts/python.exe investigate_specific_records_fixed.py"
+		},
+		{
+			"label": "Explain Rate Difference",
+			"type": "shell",
+			"command": "C:/Users/Milana/Desktop/DrayVis-Modules/.venv/Scripts/python.exe explain_rate_difference.py"
+		},
+		{
+			"label": "Debug Unrealistic Rates",
+			"type": "shell",
+			"command": "C:/Users/Milana/Desktop/DrayVis-Modules/.venv/Scripts/python.exe debug_unrealistic_rates.py"
+		},
+		{
+			"label": "Test Exact Calculation",
+			"type": "shell",
+			"command": "C:/Users/Milana/Desktop/DrayVis-Modules/.venv/Scripts/python.exe test_exact_calculation.py"
+		},
+		{
+			"label": "Trace Hidden Multiplier",
+			"type": "shell",
+			"command": "C:/Users/Milana/Desktop/DrayVis-Modules/.venv/Scripts/python.exe trace_hidden_multiplier.py"
+		},
+		{
+			"label": "Direct Function Test",
+			"type": "shell",
+			"command": "C:/Users/Milana/Desktop/DrayVis-Modules/.venv/Scripts/python.exe direct_function_test.py"
+		},
+		{
+			"label": "Direct Function Test Fixed",
+			"type": "shell",
+			"command": "C:/Users/Milana/Desktop/DrayVis-Modules/.venv/Scripts/python.exe direct_function_test.py"
+		},
+		{
+			"label": "Add Debug Logging",
+			"type": "shell",
+			"command": "C:/Users/Milana/Desktop/DrayVis-Modules/.venv/Scripts/python.exe add_debug_logging.py"
+		},
+		{
+			"label": "Run generation with debug logging",
+			"type": "shell",
+			"command": "C:/Users/Milana/Desktop/DrayVis-Modules/.venv/Scripts/python.exe data/scripts/generate_expanded_dummies.py"
+		},
+		{
+			"label": "Run comprehensive debug analysis",
+			"type": "shell",
+			"command": "C:/Users/Milana/Desktop/DrayVis-Modules/.venv/Scripts/python.exe comprehensive_debug.py"
+		},
+		{
+			"label": "Force debug the exact problematic record",
+			"type": "shell",
+			"command": "C:/Users/Milana/Desktop/DrayVis-Modules/.venv/Scripts/python.exe force_debug_record.py"
+		},
+		{
+			"label": "Debug enrichment process",
+			"type": "shell",
+			"command": "C:/Users/Milana/Desktop/DrayVis-Modules/.venv/Scripts/python.exe debug_enrichment.py"
+		},
+		{
+			"label": "Debug exact record corruption",
+			"type": "shell",
+			"command": "C:/Users/Milana/Desktop/DrayVis-Modules/.venv/Scripts/python.exe debug_exact_records.py"
+		},
+		{
+			"label": "Test base generation only",
+			"type": "shell",
+			"command": "C:/Users/Milana/Desktop/DrayVis-Modules/.venv/Scripts/python.exe test_base_generation.py"
+		},
+		{
+			"label": "Fix business logic violation",
+			"type": "shell",
+			"command": "C:/Users/Milana/Desktop/DrayVis-Modules/.venv/Scripts/python.exe fix_business_logic.py"
+		},
+		{
+			"label": "Generate fresh enriched data",
+			"type": "shell",
+			"command": "C:/Users/Milana/Desktop/DrayVis-Modules/.venv/Scripts/python.exe data/scripts/csv_zip_enricher.py"
+		},
+		{
+			"label": "Test Business Logic Fix",
+			"type": "shell",
+			"command": "C:/Users/Milana/Desktop/DrayVis-Modules/.venv/Scripts/python.exe test_business_logic_fix.py"
+		},
+		{
+			"label": "Analyze Rate Patterns",
+			"type": "shell",
+			"command": "C:/Users/Milana/Desktop/DrayVis-Modules/.venv/Scripts/python.exe analyze_rate_patterns.py"
+		},
+		{
+			"label": "Debug Exact Rate Generation",
+			"type": "shell",
+			"command": "C:/Users/Milana/Desktop/DrayVis-Modules/.venv/Scripts/python.exe debug_exact_rate_generation.py"
+		},
+		{
+			"label": "Test CSV Value Comparison",
+			"type": "shell",
+			"command": "C:/Users/Milana/Desktop/DrayVis-Modules/.venv/Scripts/python.exe debug_csv_values.py"
+		},
+		{
+			"label": "Test Function Isolation",
+			"type": "shell",
+			"command": "C:/Users/Milana/Desktop/DrayVis-Modules/.venv/Scripts/python.exe isolate_function_test.py"
+		},
+		{
+			"label": "Trace Function Step by Step",
+			"type": "shell",
+			"command": "C:/Users/Milana/Desktop/DrayVis-Modules/.venv/Scripts/python.exe trace_function_step_by_step.py"
+		},
+		{
+			"label": "Implement Business Logic Fix",
+			"type": "shell",
+			"command": "C:/Users/Milana/Desktop/DrayVis-Modules/.venv/Scripts/python.exe implement_business_logic_fix.py"
+		},
+		{
+			"label": "Generate Data with Fixed Business Logic",
+			"type": "shell",
+			"command": "C:/Users/Milana/Desktop/DrayVis-Modules/.venv/Scripts/python.exe data/scripts/generate_expanded_dummies.py"
+		},
+		{
+			"label": "Enrich Data with Fixed Rates",
+			"type": "shell",
+			"command": "C:/Users/Milana/Desktop/DrayVis-Modules/.venv/Scripts/python.exe data/scripts/csv_zip_enricher.py"
+		},
+		{
+			"label": "Final Business Logic Validation",
+			"type": "shell",
+			"command": "C:/Users/Milana/Desktop/DrayVis-Modules/.venv/Scripts/python.exe test_business_logic_fix.py"
+		},
+		{
+			"label": "Apply Final Business Logic Fix",
+			"type": "shell",
+			"command": "C:/Users/Milana/Desktop/DrayVis-Modules/.venv/Scripts/python.exe final_business_logic_fix.py"
+		},
+		{
+			"label": "Generate Data with Final Business Logic",
+			"type": "shell",
+			"command": "C:/Users/Milana/Desktop/DrayVis-Modules/.venv/Scripts/python.exe data/scripts/generate_expanded_dummies.py"
+		},
+		{
+			"label": "Enrich Data with Final Fix",
+			"type": "shell",
+			"command": "C:/Users/Milana/Desktop/DrayVis-Modules/.venv/Scripts/python.exe data/scripts/csv_zip_enricher.py"
+		},
+		{
+			"label": "Test Final Business Logic Fix",
+			"type": "shell",
+			"command": "C:/Users/Milana/Desktop/DrayVis-Modules/.venv/Scripts/python.exe test_business_logic_fix.py"
+		},
+		{
+			"label": "Debug Violations",
+			"type": "shell",
+			"command": "C:/Users/Milana/Desktop/DrayVis-Modules/.venv/Scripts/python.exe debug_violations.py"
+		},
+		{
+			"label": "Generate Data with COMPLETE Business Logic Fix",
+			"type": "shell",
+			"command": "C:/Users/Milana/Desktop/DrayVis-Modules/.venv/Scripts/python.exe data/scripts/generate_expanded_dummies.py"
+		},
+		{
+			"label": "Run cleanup script",
+			"type": "shell",
+			"command": "C:/Users/Milana/Desktop/DrayVis-Modules/.venv/Scripts/python.exe cleanup_files.py"
+		},
+		{
+			"label": "Test clean data generation script",
+			"type": "shell",
+			"command": "C:/Users/Milana/Desktop/DrayVis-Modules/.venv/Scripts/python.exe data/scripts/generate_expanded_dummies.py"
+		},
+		{
+			"label": "Test clean script business logic",
+			"type": "shell",
+			"command": "C:/Users/Milana/Desktop/DrayVis-Modules/.venv/Scripts/python.exe test_clean_script.py"
+		},
+		{
+			"label": "Generate Dummy Data with Real Carriers",
+			"type": "shell",
+			"command": "C:/Users/Milana/Desktop/DrayVis-Modules/.venv/Scripts/python.exe generate_dummy_data.py",
+			"group": "build"
+		},
+		{
+			"label": "Run DrayVis Dummy Data Generator",
+			"type": "shell",
+			"command": "C:/Users/Milana/Desktop/DrayVis-Modules/.venv/Scripts/python.exe drayvis_dummy_generator.py",
+			"group": "build"
+		},
+		{
+			"label": "Validate Dummy Data",
+			"type": "shell",
+			"command": "C:/Users/Milana/Desktop/DrayVis-Modules/.venv/Scripts/python.exe validate_dummy_data.py",
+			"group": "test"
+		},
+		{
+			"label": "Test Port Drayage Dummy Generator",
+			"type": "shell",
+			"command": "C:/Users/Milana/Desktop/DrayVis-Modules/.venv/Scripts/python.exe port_drayage_dummy_generator.py"
+		},
+		{
+			"label": "Test Port Drayage Generator Final",
+			"type": "shell",
+			"command": "C:/Users/Milana/Desktop/DrayVis-Modules/.venv/Scripts/python.exe port_drayage_dummy_generator.py"
+		},
+		{
+			"label": "Test Updated Port Drayage Generator with Curated Zips Only",
+			"type": "shell",
+			"command": "C:/Users/Milana/Desktop/DrayVis-Modules/.venv/Scripts/python.exe port_drayage_dummy_generator.py"
+		},
+		{
+			"label": "Test Time-Based Rate Progression Generator",
+			"type": "shell",
+			"command": "C:/Users/Milana/Desktop/DrayVis-Modules/.venv/Scripts/python.exe port_drayage_dummy_generator.py"
+		},
+		{
+			"label": "Test Weighted Carrier Port Drayage Generator",
+			"type": "shell",
+			"command": "C:/Users/Milana/Desktop/DrayVis-Modules/.venv/Scripts/python.exe port_drayage_dummy_generator.py",
+			"group": "build"
+		},
+		{
+			"label": "Test Updated Port Drayage Generator with Weighted Buckets",
+			"type": "shell",
+			"command": "C:/Users/Milana/Desktop/DrayVis-Modules/.venv/Scripts/python.exe scripts/port_drayage_dummy_generator.py"
+		},
+		{
+			"label": "Test Enhanced Data Analysis Report",
+			"type": "shell",
+			"command": "C:/Users/Milana/Desktop/DrayVis-Modules/.venv/Scripts/python.exe scripts/dummy_data_report.py"
+		},
+		{
+			"label": "Identify Close Zip Codes",
+			"type": "shell",
+			"command": "C:/Users/Milana/Desktop/DrayVis-Modules/.venv/Scripts/python.exe identify_close_zips.py"
+		},
+		{
+			"label": "Identify Close Zip Codes Fixed",
+			"type": "shell",
+			"command": "C:/Users/Milana/Desktop/DrayVis-Modules/.venv/Scripts/python.exe identify_close_zips.py"
+		},
+		{
+			"label": "Generate Data Without Close Zips",
+			"type": "shell",
+			"command": "C:/Users/Milana/Desktop/DrayVis-Modules/.venv/Scripts/python.exe scripts/port_drayage_dummy_generator.py"
+		},
+		{
+			"label": "Generate Updated Report",
+			"type": "shell",
+			"command": "C:/Users/Milana/Desktop/DrayVis-Modules/.venv/Scripts/python.exe scripts/dummy_data_report.py"
+		},
+		{
+			"label": "Verify Distance Filtering",
+			"type": "shell",
+			"command": "C:/Users/Milana/Desktop/DrayVis-Modules/.venv/Scripts/python.exe verify_distance_filter.py"
+		},
+		{
+			"label": "Final Proximity Validation",
+			"type": "shell",
+			"command": "C:/Users/Milana/Desktop/DrayVis-Modules/.venv/Scripts/python.exe final_proximity_validation.py"
+		},
+		{
+			"label": "Check RPM Distribution",
+			"type": "shell",
+			"command": "C:/Users/Milana/Desktop/DrayVis-Modules/.venv/Scripts/python.exe check_rpm_distribution.py"
+		},
+		{
+			"label": "Generate Data with RPM Filtering",
+			"type": "shell",
+			"command": "C:/Users/Milana/Desktop/DrayVis-Modules/.venv/Scripts/python.exe scripts/port_drayage_dummy_generator.py"
+		},
+		{
+			"label": "Verify RPM Filtering",
+			"type": "shell",
+			"command": "C:/Users/Milana/Desktop/DrayVis-Modules/.venv/Scripts/python.exe check_rpm_distribution.py"
+		},
+		{
+			"label": "Test Time Multiplier Smoothness",
+			"type": "shell",
+			"command": "C:/Users/Milana/Desktop/DrayVis-Modules/.venv/Scripts/python.exe test_time_multiplier.py"
+		},
+		{
+			"label": "Analyze Monthly Rate Trends",
+			"type": "shell",
+			"command": "C:/Users/Milana/Desktop/DrayVis-Modules/.venv/Scripts/python.exe analyze_monthly_trends.py"
+		},
+		{
+			"label": "Create Port Drayage Map",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules-main/.venv/Scripts/python.exe create_drayage_map.py",
+			"group": "build"
+		},
+		{
+			"label": "Create Static Visualizations",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules-main/.venv/Scripts/python.exe create_static_visualizations.py",
+			"group": "build"
+		},
+		{
+			"label": "Create Updated Static Visualization",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules-main/.venv/Scripts/python.exe create_static_visualizations.py",
+			"group": "build"
+		},
+		{
+			"label": "Create Interactive Toggle Visualization",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules-main/.venv/Scripts/python.exe create_interactive_toggle.py",
+			"group": "build"
+		},
+		{
+			"label": "Create Fixed Interactive Toggle",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules-main/.venv/Scripts/python.exe create_interactive_toggle.py",
+			"group": "build"
+		},
+		{
+			"label": "Create RPM Dot Maps with Rings",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules-main/.venv/Scripts/python.exe create_rpm_dot_maps.py",
+			"group": "build"
+		},
+		{
+			"label": "Test Intelligent Rate Estimator",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules/.venv/Scripts/python.exe intelligent_rate_estimator.py",
+			"group": "build"
+		},
+		{
+			"label": "Test Intelligent Rate Estimator",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules-main/.venv/Scripts/python.exe intelligent_rate_estimator.py",
+			"group": "build"
+		},
+		{
+			"label": "Test Rate Estimator Quick",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules-main/.venv/Scripts/python.exe test_rate_estimator.py",
+			"group": "test"
+		},
+		{
+			"label": "Test Fixed Rate Estimator",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules/.venv/Scripts/python.exe test_rate_estimator.py"
+		},
+		{
+			"label": "Debug Data Structure",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules-main/.venv/Scripts/python.exe debug_data_structure.py"
+		},
+		{
+			"label": "Debug Data Structure Fixed",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules-main/.venv/Scripts/python.exe debug_data_structure.py"
+		},
+		{
+			"label": "Debug Data Structure Final",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules-main/.venv/Scripts/python.exe debug_data_structure.py"
+		},
+		{
+			"label": "Debug Model Building",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules-main/.venv/Scripts/python.exe debug_model_building.py"
+		},
+		{
+			"label": "Debug Zipcode Mismatch",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules-main/.venv/Scripts/python.exe debug_zipcode_mismatch.py"
+		},
+		{
+			"label": "Debug Zipcode Dict",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules-main/.venv/Scripts/python.exe debug_zipcode_dict.py"
+		},
+		{
+			"label": "Debug Data Types",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules-main/.venv/Scripts/python.exe debug_data_types.py"
+		},
+		{
+			"label": "Test Fixed Rate Estimator",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules-main/.venv/Scripts/python.exe test_rate_estimator.py"
+		},
+		{
+			"label": "Test Fixed Rate Estimator Direct",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules-main/.venv/Scripts/python.exe test_fixed_rate_estimator.py"
+		},
+		{
+			"label": "Debug Estimate Rate Error",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules-main/.venv/Scripts/python.exe debug_estimate_rate.py"
+		},
+		{
+			"label": "Final Comprehensive Rate Estimator Test",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules-main/.venv/Scripts/python.exe test_final_rate_estimator.py"
+		},
+		{
+			"label": "Final Intelligent Rate Estimation Demo",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules-main/.venv/Scripts/python.exe intelligent_rate_demo.py"
+		},
+		{
+			"label": "Test Regional LA Port Rate Demo",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules-main/.venv/Scripts/python.exe la_port_rate_demo.py"
+		},
+		{
+			"label": "Test Interactive Rate Testing Interface",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules/.venv/Scripts/python.exe interactive_rate_tester.py"
+		},
+		{
+			"label": "Test Interactive Rate Testing Interface with Python",
+			"type": "shell",
+			"command": "python interactive_rate_tester.py"
+		},
+		{
+			"label": "Test Zipcode Reference Guide",
+			"type": "shell",
+			"command": "python test_zipcode_reference.py"
+		},
+		{
+			"label": "Test Interactive Rate Testing Interface Final",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules-main/.venv/Scripts/python.exe interactive_rate_tester.py"
+		},
+		{
+			"label": "Test LA Region Detailed Tester",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules-main/.venv/Scripts/python.exe la_region_detailed_tester.py",
+			"group": "build"
+		},
+		{
+			"label": "Run LA Region Detailed Demo",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules-main/.venv/Scripts/python.exe la_region_demo.py",
+			"group": "build"
+		},
+		{
+			"label": "Run Fixed LA Region Demo",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules-main/.venv/Scripts/python.exe la_region_demo.py",
+			"group": "build"
+		},
+		{
+			"label": "Test DrayVis Platform",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules-main/.venv/Scripts/python.exe drayvis_platform.py",
+			"group": "build"
+		},
+		{
+			"label": "Run Platform Demo",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules-main/.venv/Scripts/python.exe platform_demo.py",
+			"group": "build"
+		},
+		{
+			"label": "Test Enhanced DrayVis Platform",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules-main/.venv/Scripts/python.exe drayvis_platform.py",
+			"group": "build"
+		},
+		{
+			"label": "Test Full Advanced DrayVis Platform",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules-main/.venv/Scripts/python.exe drayvis_platform.py",
+			"group": "build"
+		},
+		{
+			"label": "Test Enhanced Platform Single Analysis",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules-main/.venv/Scripts/python.exe -c \"from drayvis_platform import DrayVisPlatform; p = DrayVisPlatform(); p.estimate_with_platform_analysis('90210')\"",
+			"group": "build"
+		},
+		{
+			"label": "Test Advanced Rate Estimator Directly",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules-main/.venv/Scripts/python.exe advanced_rate_estimator.py",
+			"group": "build"
+		},
+		{
+			"label": "Test Fixed Advanced Rate Estimator",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules-main/.venv/Scripts/python.exe advanced_rate_estimator.py",
+			"group": "build"
+		},
+		{
+			"label": "Test Enhanced Platform Quick",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules-main/.venv/Scripts/python.exe test_enhanced_platform.py",
+			"group": "build"
+		},
+		{
+			"label": "Run Enhanced Platform Demo",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules-main/.venv/Scripts/python.exe enhanced_platform_demo.py",
+			"group": "build"
+		},
+		{
+			"label": "Demo Enhanced Platform",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules-main/.venv/Scripts/python.exe enhanced_platform_demo.py",
+			"group": "build"
+		},
+		{
+			"label": "Test DateTime Fix",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules/.venv/Scripts/python.exe test_fix.py"
+		},
+		{
+			"label": "Test DateTime Fix Corrected",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules-main/.venv/Scripts/python.exe test_fix.py"
+		},
+		{
+			"label": "Test DateTime Fix Final",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules-main/.venv/Scripts/python.exe test_fix.py"
+		},
+		{
+			"label": "Test DateTime Operations",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules-main/.venv/Scripts/python.exe test_datetime.py"
+		},
+		{
+			"label": "Test Minimal Estimator",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules-main/.venv/Scripts/python.exe test_minimal.py"
+		},
+		{
+			"label": "Clear Python Cache",
+			"type": "shell",
+			"command": "Remove-Item -Path '__pycache__' -Recurse -Force"
+		},
+		{
+			"label": "Test Fixed Advanced Estimator",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules-main/.venv/Scripts/python.exe test_fix.py"
+		},
+		{
+			"label": "Test Enhanced Platform",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules-main/.venv/Scripts/python.exe test_platform.py"
+		},
+		{
+			"label": "Comprehensive Platform Test",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules-main/.venv/Scripts/python.exe test_comprehensive.py"
+		},
+		{
+			"label": "Debug Negative Rates",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules-main/.venv/Scripts/python.exe debug_negative_rates.py"
+		}
+	]
+}
