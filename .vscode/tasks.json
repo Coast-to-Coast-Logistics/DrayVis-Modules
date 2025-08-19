@@ -1653,6 +1653,54 @@
 			"type": "shell",
 			"command": "python test_fixed_comprehensive_system.py",
 			"group": "build"
+		},
+		{
+			"label": "Test Enhanced Route Rate Predictor",
+			"type": "shell",
+			"command": "python demo_enhanced_predictor.py"
+		},
+		{
+			"label": "Test Enhanced Route Rate Predictor with venv",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules/.venv/Scripts/python.exe demo_enhanced_predictor.py"
+		},
+		{
+			"label": "Quick Bearing Demo",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules/.venv/Scripts/python.exe quick_bearing_demo.py"
+		},
+		{
+			"label": "Random Forest Enhancement Results",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules/.venv/Scripts/python.exe random_forest_enhancement_results.py"
+		},
+		{
+			"label": "Save Enhanced CSV",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules/.venv/Scripts/python.exe save_enhanced_csv.py"
+		},
+		{
+			"label": "Display Enhanced CSV Info",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules/.venv/Scripts/python.exe display_enhanced_csv.py"
+		},
+		{
+			"label": "Process Long Beach Data with ZIP Coordinates",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules/.venv/Scripts/python.exe process_long_beach_data.py",
+			"group": "build"
+		},
+		{
+			"label": "Analyze Long Beach Random Forest",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules/.venv/Scripts/python.exe analyze_long_beach_random_forest.py",
+			"group": "build"
+		},
+		{
+			"label": "Final System Validation",
+			"type": "shell",
+			"command": "C:/Users/gavin/OneDrive/Desktop/DrayVis-Modules/.venv/Scripts/python.exe final_validation.py",
+			"group": "build"
 		}
 	]
 }
